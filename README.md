@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/75e7ac4e-d59b-46b9-92b1-da7bff46fb03/deploy-status)](https://app.netlify.com/sites/underscoretalk/deploys)
+
 # Vue 3 + Typescript + Vite
 
 This template should help get you started developing with Vue 3 and Typescript in Vite.
