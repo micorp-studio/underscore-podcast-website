@@ -37,7 +37,12 @@
           h-20
           rounded-xl
           bg-white bg-opacity-0
+          outline-none
+          transition-all
+          ease-in-out
+          transform
           hover:bg-opacity-10
+          focus:scale-95
         "
         v-for="platform in platforms"
         :href="platform.link"
