@@ -1,6 +1,6 @@
 # Underscore\_
 
-Voici la homepage du podcast !
+Voici la homepage du [podcast](https://underscore.to/podcast) !
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/75e7ac4e-d59b-46b9-92b1-da7bff46fb03/deploy-status)](https://app.netlify.com/sites/underscoretalk/deploys)
 
