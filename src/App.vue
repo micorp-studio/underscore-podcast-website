@@ -1,7 +1,7 @@
 <template>
   <Podcast></Podcast>
   <p class="text-white text-opacity-50 text-sm text-center mt-12">
-    Underscore_ © 2021 · Made with ❤️ by
+    Underscore_ © 2022 · Made with ❤️ by
     <a href="https://twitter.com/Micode">@micode</a>
   </p>
 </template>
