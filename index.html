@@ -1,18 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="/favicon.jpg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Underscore_ - Podcast</title>
-    <meta
-      name="description"
-      content="Le talk-show animé par @Micode pour les passionnés de l'IT 🎙 Entreprenariat, Hacking, Dev, IA 🧑‍💻"
-    />
-    <meta name="keywords" content="micode, underscore, podcast, twitch" />
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="assets/favicon.jpg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Underscore_ - Podcast</title>
+  <meta name="description"
+    content="Le talk-show animé par @Micode pour les passionnés de l'IT 🎙 Entreprenariat, Hacking, Dev, IA 🧑‍💻" />
+  <meta name="keywords" content="micode, underscore, podcast, twitch" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@unocss/reset/tailwind.min.css">
+  <style>
+    [un-cloak] {
+      display: none;
+    }
+  </style>
+  <script>
+    window.__unocss = {
+      shortcuts: {
+        'podcast-btn': 'flex justify-between items-center py-3 px-4 my-2 h-20 rounded-xl bg-white bg-opacity-0 outline-none transition-all ease-in-out transform hover:bg-opacity-10 focus:scale-95',
+      }
+    }
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
+</head>
+
+<body class="bg-gradient-to-br from-gray-900 to-blue-800 bg-fixed font-sans">
+  <div id="app" class="pb-5" un-clock>
+    <section class="
+        bg-white bg-opacity-5
+        p-5
+        text-white
+        mx-auto
+        max-w-screen-sm
+        md:rounded-3xl
+        md:mt-10
+      ">
+      <header>
+        <div class="mx-4">
+          <img src="assets/cover.jpg" alt="" class="w-44 rounded-2xl mx-auto" />
+          <h1 class="text-xl mt-6">Underscore_</h1>
+          <p class="text-white text-opacity-70 mt-1">
+            Le talk-show animé par @Micode pour les passionnés de l'IT 🎙<br />
+            Entreprenariat, Hacking, Dev, IA 🧑‍💻
+          </p>
+        </div>
+      </header>
+      <div class="bg-white bg-opacity-10 rounded-2xl text-white mt-6 py-0.5 px-2">
+        <a class="podcast-btn" href="https://open.spotify.com/show/1sz1NhoHqbpXbzNlpOnFoz">
+          <img src="assets/spotify.png" alt="" class="h-10" />
+          <div class="flex items-center uppercase text-sm">
+            <span>Listen</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+        </a>
+        <a class="podcast-btn" href="https://www.deezer.com/fr/show/2379352">
+          <img src="assets/deezer.png" alt="" class="h-6" />
+          <div class="flex items-center uppercase text-sm">
+            <span>Listen</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+        </a>
+        <a class="podcast-btn" href="https://podcasts.apple.com/fr/podcast/underscore/id1556250107">
+          <img src="assets/google-podcasts.png" alt="" class="h-6" />
+          <div class="flex items-center uppercase text-sm">
+            <span>Listen</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+        </a>
+        <a class="podcast-btn" href="https://podcasts.google.com/feed/aHR0cHM6Ly9yc3MuYWNhc3QuY29tL21pY29kZS11bmRlcnNjb3Jl">
+          <img src="assets/apple-podcasts.png" alt="" class="h-7" />
+          <div class="flex items-center uppercase text-sm">
+            <span>Listen</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+        </a>
+      </div>
+    </section>
+    <p class="text-white text-opacity-50 text-sm text-center mt-12">
+      Underscore_ © <span id="date"></span> · Made with ❤️ by
+      <a href="https://twitter.com/Micode">@micode</a>
+    </p>
+  </div>
+  <script>
+    document.getElementById('date').innerHTML = new Date().getFullYear()
+  </script>
+</body>
+
 </html>
